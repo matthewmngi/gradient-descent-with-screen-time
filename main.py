@@ -1,7 +1,6 @@
 import kagglehub, math
 import pandas as pd
 import matplotlib.pyplot as plt
-from lab_utils_uni import plt_house_x, plt_contour_wgrad, plt_divergence, plt_gradients
 
 # Download latest version
 path = kagglehub.dataset_download("abdulmaliklodhra/social-media-impact-on-teen-behaviour-2015-2060", output_dir="./data", force_download=True)
