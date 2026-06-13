@@ -35,7 +35,7 @@ The code should execute and display the following graph after running through th
 
 ![Gradient descent results](/Figure_1.png)
 
-I started with a learning rate of `1.0*e^-2`, but this proved to be inadequate. I've found that a learning rate of around `15` works best. Anything less results in scalar errors.
+I started with a learning rate of `1.0*e^-2`, but this proved to be inadequate. I've found that a learning rate of around `15` works best. A learning rate of 10 produces scalar errors.
 
 ---
 
