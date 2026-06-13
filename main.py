@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from lab_utils_uni import plt_house_x, plt_contour_wgrad, plt_divergence, plt_gradients
 
 # Download latest version
-# path = kagglehub.dataset_download("abdulmaliklodhra/social-media-impact-on-teen-behaviour-2015-2060", output_dir="./data", force_download=True)
+path = kagglehub.dataset_download("abdulmaliklodhra/social-media-impact-on-teen-behaviour-2015-2060", output_dir="./data", force_download=True)
 
-# print("Path to dataset files:", path)
+print("Path to dataset files:", path)
 
 # Load the dataset
 data = pd.read_csv("./data/country_2026_risk_profile.csv")
@@ -119,7 +119,7 @@ print("`b` initialized to:", b_init)
 # Choose the number of iterations and the learning rate
 
 iterations = 10000
-tmp_alpha = 1.0e-2
+tmp_alpha = 1.0/15
 
 print("Number of iterations:", iterations)
 print("Learning rate:", tmp_alpha)
